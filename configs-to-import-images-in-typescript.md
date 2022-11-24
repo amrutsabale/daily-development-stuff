@@ -1,3 +1,4 @@
+# Webpack & Typescript image import configs
 # Setup Webpack file-loader, add declaration.d.ts, and voila!
 after spending some time to figure out the solution, this is what I did...
  
