@@ -15,7 +15,7 @@ addDays(new Date(), 1) // tomorrow's date
 format(alertSentDate, 'MMM DD, YYYY, h:mm A') //Nov 16, 2022, 1:17 PM
 ````
  
-## With TimeZone Prefer: [luxon]([https://date-fns.org/](https://moment.github.io/luxon/#/tour))
+## With TimeZone Prefer: [luxon](https://moment.github.io/luxon/#/tour)
 ````
 import { DateTime, Settings } from 'luxon';
  
