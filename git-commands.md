@@ -30,7 +30,7 @@ open ~/.gitconfig
 ```
 1. vim ~/.zshrc
 2. add this line
-   alias ="clear"
+   alias c="clear"
 3. exit the vim
 4. save using this command
    source ~/.zshrc
