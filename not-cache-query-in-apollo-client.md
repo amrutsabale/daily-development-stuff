@@ -1,4 +1,4 @@
-### Not to cache Query in Apollo client
+### Not to cache Query in Apollo client.
 
 ```
   const { data } = apollo_client.query<GetUnreadNotificationsCountQuery>({
@@ -9,7 +9,7 @@
       });
 ```
 
-### Read cached data from the apollo_client cache
+### Read cached data from the apollo_client cache.
 
 ```
    const viewerData1 = apollo_client.readQuery({ query: GetViewerDocument });
