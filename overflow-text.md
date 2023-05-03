@@ -1,16 +1,15 @@
-## one line e.g [amrutssssd...]
+## one line e.g [amrutssssdasd...]
 
-```` 
+```
 div {
-  width: 300px; 
-  overflow: hidden; 
-  text-overflow: ellipsis; 
+  width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
   white-space: nowrap;
 }
-````
+```
 
-## two line e.g 
-
+## two line e.g
 
 ```
 +--------------------+
@@ -20,13 +19,13 @@ div {
 
 ```
 
-```` 
+```
 div {
-  width: 300px; 
-  overflow: hidden; 
-  text-overflow: ellipsis; 
+  width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
 }
-````
+```
