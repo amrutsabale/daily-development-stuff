@@ -37,3 +37,15 @@ dt.day      //=> 14
 dt.second   //=> 47
 dt.weekday  //=> 4
 ````
+
+```
+ const start = DateTime.fromMillis(
+    new Date("2018-05-01T13:44:48.708709Z").getTime()
+  );
+  const end = DateTime.fromMillis(
+    new Date("2018-05-01T13:46:48.708709Z").getTime()
+  );
+
+  const asd = end.diff(start, "seconds").toObject();
+  console.log("asd", asd.seconds);
+```
