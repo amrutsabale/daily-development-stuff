@@ -49,3 +49,28 @@ dt.weekday  //=> 4
   const asd = end.diff(start, "seconds").toObject();
   console.log("asd", asd.seconds);
 ```
+
+
+```
+const dt = DateTime.fromMillis(new Date("2023-05-07").getTime());
+console.log(
+    DateTime.local().hasSame(dt, "day"),
+    DateTime.local().toJSDate(),
+    dt.toJSDate()
+  );
+//false
+//Fri Jul 07 2023 10:49:31 GMT+0530 (India Standard Time)
+//Sun May 07 2023 05:30:00 GMT+0530 (India Standard Time)
+```
+
+```
+const dt = DateTime.fromMillis(new Date("2023-07-07").getTime());
+console.log(
+    DateTime.local().hasSame(dt, "day"),
+    DateTime.local().toJSDate(),
+    dt.toJSDate()
+  );
+//true
+//Fri Jul 07 2023 10:51:26 GMT+0530 (India Standard Time)
+//Fri Jul 07 2023 05:30:00 GMT+0530 (India Standard Time)
+```
