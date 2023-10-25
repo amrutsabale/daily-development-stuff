@@ -9,3 +9,10 @@ Some instance of Postgres is running. You can execute kill <pid> to kill it if y
 ```
 kill <pid>
 ```
+
+once you have the PID you can terminate it with the following:
+```
+kill -9 <pid>
+
+````
+Doing the -9 on kill sends a SIGKILL (instead of a SIGTERM). SIGTERM has been ignored by node for me sometimes.
